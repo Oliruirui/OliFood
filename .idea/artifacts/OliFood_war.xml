@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OliFood:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>OliFood</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="OliFood-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OliFood:war exploded" />
+    </root>
+  </artifact>
+</component>
