@@ -1,1 +1,5 @@
+com/example/olifood/entity/Customer.class
+com/example/olifood/dao/CustomerDao.class
 com/example/olifood/Servlet.class
+com/example/olifood/controller/SignUpController.class
+com/example/olifood/service/CustomerService.class
