@@ -1,12 +1,20 @@
 package com.example.olifood.entity;
 
-public class Customer {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "customer")
+public class Customer {
+    @Id
     private String email;
     private String firstName;
     private String lastName;
     private String password;
     private boolean enabled;
+    
+    private String cartId;
 
     public String getEmail() {
         return email;
